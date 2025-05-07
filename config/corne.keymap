@@ -55,10 +55,10 @@
             tapping-term-ms = <200>;
         };
 
-        new_behavior: new_behavior {
+        new_behavior: ZKP_9 {
             compatible = "zmk,behavior-mod-morph";
             label = "NEW_BEHAVIOR";
-            bindings = <&kp N9>, <&kp NUMBER_9>;
+            bindings = <&kp N9>, <&unicode 2079>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
