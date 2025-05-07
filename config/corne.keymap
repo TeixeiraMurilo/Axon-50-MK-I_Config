@@ -45,6 +45,15 @@
 
             tapping-term-ms = <200>;
         };
+
+        ZKP_PARENS: ZKP_PARENS {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ZKP_PARENS";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS>, <&ZKM_PARENS>;
+
+            tapping-term-ms = <200>;
+        };
     };
 
     macros {
